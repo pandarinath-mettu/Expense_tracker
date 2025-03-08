@@ -13,7 +13,7 @@ const SECRET_KEY = "your_secret_key";
 const db = mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "pandu",
+    password: "yourpassword",
     database: "expense_tracker"
 });
 
